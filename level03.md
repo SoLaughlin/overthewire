@@ -8,7 +8,7 @@ instructions mentioned the password was on a file named spaces in this file name
   `ls` showed the file
   
   however when using :`cat spaces in this file name` returned nothing
-  spaces are now allowed in filenames but terminals have problems reading them. 
+  spaces are now allowed in filenames(not always the case) but terminals have problems translating them. 
   
   By using `tab` it autofilled to `spaces\ in\ this\ filename`
 
