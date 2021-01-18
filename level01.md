@@ -9,6 +9,6 @@ instructions mentioned the password was on a readme file.
   `cat readme` returned : `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
   
   to access next level 
-  `$ ssh username@bandit.labs.overthewire.org -p 2220`
+  `$ ssh bandit1@bandit.labs.overthewire.org -p 2220`
   username: `bandit1`
   password: `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
