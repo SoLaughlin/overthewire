@@ -1,2 +1,2 @@
 # Text file containing useful/common strings strings
-bandit.labs.overthewire.org -p 2220
+ssh bandit2@bandit.labs.overthewire.org -p 2220
