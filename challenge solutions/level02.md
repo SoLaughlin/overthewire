@@ -16,7 +16,7 @@ The password for the next level is stored in a file called - located in the home
   for why I used this [https://unix.stackexchange.com/questions/16357/usage-of-dash-in-place-of-a-filename:]
   
   3. to get around this I prefixed the filename with a path
-  `cat .\-` returned : `CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9`
+  `cat .\-` returned : `CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9`7
   
   4.`ssh bandit2@bandit.labs.overthewire.org -p 2220`
   

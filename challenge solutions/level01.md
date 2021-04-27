@@ -10,6 +10,7 @@ Whenever you find a password for a level, use SSH (on port 2220) to log into tha
 ### solution
 
 1.`ls` showed the existance of a readme file
+
 2.`cat readme` returned : `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
 
   
