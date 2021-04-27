@@ -11,8 +11,10 @@ Whenever you find a password for a level, use SSH (on port 2220) to log into tha
 
 1.`ls` showed the existance of a readme file
 2.`cat readme` returned : `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
+
   
- to access next level
+To access next level
  
 3.`ssh bandit1@bandit.labs.overthewire.org -p 2220`
+
 4. password: `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
