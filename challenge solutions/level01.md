@@ -1,14 +1,18 @@
 # overthewire
  challenge submissions @ overthewire
  
-## level goal: Access level 1 by finding the password and use this password to log into bandit1
+## level goal: Find the password
 
-instructions mentioned the password was on a readme file.
+The password for the next level is stored in a file called readme located in the home directory. 
+Use this password to log into bandit1 using SSH. 
+Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.
 
-  `ls` showed the existance of a readme file
-  `cat readme` returned : `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
+### solution
+
+1.`ls` showed the existance of a readme file
+2.`cat readme` returned : `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
   
-  to access next level 
-  `$ ssh bandit1@bandit.labs.overthewire.org -p 2220`
-  username: `bandit1`
-  password: `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
+ to access next level
+ 
+3.`ssh bandit1@bandit.labs.overthewire.org -p 2220`
+4. password: `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
